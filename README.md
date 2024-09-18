@@ -44,6 +44,6 @@ Example payload.txt:
 192.168.0.1
 
 localhost
-```
+````
 
 **Note**: This tool is designed for educational and testing purposes only. Ensure you have permission to test the target before running this script. Misuse of this tool may violate legal or ethical guidelines.
