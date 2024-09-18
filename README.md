@@ -9,6 +9,7 @@ This is a bash script that tests for potential header injection vulnerabilities 
 
 # Prerequisites
 curl: The script uses `curl` to make HTTP requests.
+
 Bash: The script is written for Bash environments.
 
 # Usage
@@ -21,12 +22,16 @@ Bash: The script is written for Bash environments.
 -p payload_file: (Optional) File containing custom values for header injection. Each value should be on a new line.
 
 -t timeout: (Optional) Timeout for each HTTP request in seconds.
+
 -h: Displays the help/usage information.
 
 # Script Behavior
 Baseline Request: The script first makes a "baseline" request to the target URL without any custom headers and records the content length of the response.
+
 Header Injection: It then tests a list of common headers with various values (including custom values from a payload file, if provided).
+
 Comparison: For each injection, the script compares the response content length with the baseline and logs the result in the report file.
+
 Timeout: If a timeout is set, it will apply to all requests made by the script.
 
 # Custom payload
@@ -34,7 +39,9 @@ If you wish to use your own values for header injections, create a file (e.g., p
 
 Example payload.txt:
 ``10.0.0.1
+
 192.168.0.1
+
 localhost
 ``
 
