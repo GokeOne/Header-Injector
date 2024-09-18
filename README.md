@@ -39,7 +39,8 @@ If you wish to use your own values for header injections, create a file (e.g., p
 
 Example payload.txt:
 
-````10.0.0.1
+````
+10.0.0.1
 
 192.168.0.1
 
