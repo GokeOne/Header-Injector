@@ -38,11 +38,12 @@ Timeout: If a timeout is set, it will apply to all requests made by the script.
 If you wish to use your own values for header injections, create a file (e.g., payload.txt) and add one value per line. Pass this file with the -p option when running the script.
 
 Example payload.txt:
-``10.0.0.1
+
+`10.0.0.1
 
 192.168.0.1
 
 localhost
-``
+`
 
 **Note**: This tool is designed for educational and testing purposes only. Ensure you have permission to test the target before running this script. Misuse of this tool may violate legal or ethical guidelines.
