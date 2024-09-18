@@ -16,6 +16,7 @@ Bash: The script is written for Bash environments.
 
 **Options** 
 -u URL: (Required) Target URL to test for header injection.
+
 -p payload_file: (Optional) File containing custom values for header injection. Each value should be on a new line.
 -t timeout: (Optional) Timeout for each HTTP request in seconds.
 -h: Displays the help/usage information.
